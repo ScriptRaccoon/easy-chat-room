@@ -17,7 +17,7 @@
             </header>
 
             <section id="loginForm" style="display: block;">
-                <p>Currently <span id="userNumberSpan">0</span> users are are in the room.</p>
+                <p>Currently <span id="userNumberSpan">0</span> users are in the room.</p>
                 <p id="loginAlert">Please choose a name.</p>
                 <p>
                     <input type="text" id="nameInput" placeholder="Name ..." />
@@ -31,14 +31,22 @@
                     <div>
                         <span>Topic:</span>
                         <span>
-                            <input type="text" id="topicInput" placeholder="Choose a topic ..." />
+                            <input
+                                type="text"
+                                id="topicInput"
+                                placeholder="Choose a topic ..."
+                            />
                         </span>
                     </div>
                 </header>
                 <section id="messages"></section>
                 <section id="inputs">
                     <input type="button" id="messageSubmit" value="Send" />
-                    <input type="text" id="messageInput" placeholder="Type a message ..." />
+                    <input
+                        type="text"
+                        id="messageInput"
+                        placeholder="Type a message ..."
+                    />
                 </section>
             </section>
         </div>
