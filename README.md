@@ -1,4 +1,4 @@
-# Chat Room
+# Easy Chat Room
 
 This chat room is mainly a demonstration of how Node.js, express and socket.io work.
 
