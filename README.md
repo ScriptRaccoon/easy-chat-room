@@ -5,7 +5,7 @@ This chat room is mainly a demonstration of how Node.js, express and socket.io w
 You can check it out at one of these places:
 
 -   https://qc51c.sse.codesandbox.io/
--   https://easy-chat-room.herokuapp.com/
+-   https://easy-chat-room.onrender.com
 
 In the login screen, you can see how many users are currently in the room. Then you login with a name, which goes through a basic validation.
 
